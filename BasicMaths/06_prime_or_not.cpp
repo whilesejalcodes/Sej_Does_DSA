@@ -19,3 +19,16 @@ bool prime(int n) {
     else return true;
     // returns a boolean value
 }
+
+// Even Better Approach (ChatGPT)
+// Instead of starting from i = 1, you can skip checking 1, because it’s always a divisor. Start from i = 2, and initialize count = 2 for 1 and n:
+bool prime(int n) {
+    if (n <= 1) return false;
+
+    for (int i = 2; i <= sqrt(n); i++) {
+        if (n % i == 0) {
+            return false;  // found a divisor → not prime
+        }
+    }
+    return true;  // no divisors found → prime
+}
