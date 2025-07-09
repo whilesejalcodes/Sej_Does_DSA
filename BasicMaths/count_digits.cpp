@@ -1,6 +1,4 @@
 // Problem : https://www.geeksforgeeks.org/problems/count-digits5716/1
-// Category: Basic Maths
-// Language: C++
 // Description: Given a positive integer n, count the number of digits in n that divide n evenly (i.e., without leaving a remainder). Return the total number of such digits.
 class Solution {
   public:
