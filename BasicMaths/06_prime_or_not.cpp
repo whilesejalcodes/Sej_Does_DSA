@@ -12,7 +12,7 @@ bool prime(int n) {
             if ((n/i)!=i){
                 count++;
             }
-            if (count > 2) break;
+            if (count>2) break;
         }
     }
     if (count>2) return false;
