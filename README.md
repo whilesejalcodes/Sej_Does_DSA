@@ -1,6 +1,16 @@
 # Sej_Does_DSA
 A curated repository of my DSA problem-solving journey to improve coding proficiency and prepare for technical interviews.
 
+## 🌀 1.5 Basic Recursion
+
+| S.No | Problem Name                   | Platform | Difficulty | Solution Link                                                                 |
+|------|--------------------------------|----------|------------|--------------------------------------------------------------------------------|
+| 01   | Print Name N Times             | GFG       | Easy       | [01_PrintNameNTimes.cpp](1.Learn%20The%20Basics/1.5.%20Basic%20Recursion/01_PrintNameNTimes.cpp)             |
+| 02   | Print 1 to N Without Loop      | GFG      | Easy       | [02_Print1ToNWithoutLoop.cpp](1.Learn%20The%20Basics/1.5.%20Basic%20Recursion/02_Print1ToNWithoutLoop.cpp)     |
+| 03   | Print N to 1 Without Loop      | GFG       | Easy       | [03_Print_N_to_1_without_loop.cpp](1.Learn%20The%20Basics/1.5.%20Basic%20Recursion/03_Print_N_to_1_without_loop.cpp) |
+| 05   | Sum of First N Natural Numbers | GFG      | Easy       | [05_Sum_of_first_n_terms.cpp](1.Learn%20The%20Basics/1.5.%20Basic%20Recursion/05_Sum_of_first_n_terms.cpp)     |
+
+
 ## 🔢 Basic Maths
 
 | S.No | Problem Name         | Platform | Difficulty | Solution Link                     |
