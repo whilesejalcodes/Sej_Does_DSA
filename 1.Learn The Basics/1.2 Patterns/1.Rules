@@ -1,0 +1,5 @@
+Patterns - Nested Loops
+1. Outer Loop - No. of Rows
+2. Inner Loop - Focus on columns and connect them somehow to rows
+3. Print the "*" inside the inner for loop.
+4. Observe Symmetry (optional)
