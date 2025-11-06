@@ -37,3 +37,46 @@ int main() {
 	cin>>n;
 	cout<<addNum(n);
 }
+
+//factorial of a number
+//parameterised way
+#include <bits/stdc++.h>
+using namespace std;
+
+void factorial(int fact,int n){
+    if (n<2){
+        cout<<fact;
+        return;
+    }
+    factorial(fact*n,n-1);
+    
+}
+
+int main() {
+	// your code goes here
+	int fact=1;
+	int num;
+	cout<<"Please enter the number";
+	cin>>num;
+	factorial(fact,num);
+
+}
+
+//functional way
+#include <bits/stdc++.h>
+using namespace std;
+
+int factorial(int n){
+    if (n==1) return 1;
+    return n*factorial(n-1);
+    
+}
+
+int main() {
+	// your code goes here
+	int num;
+	cout<<"Please enter the number";
+	cin>>num;
+	cout<<factorial(num);
+
+}
